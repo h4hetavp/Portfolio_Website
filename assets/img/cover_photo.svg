@@ -1,0 +1,35 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradient for background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2a6c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6a3093;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle grid pattern for texture -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)" />
+  <rect width="1920" height="1080" fill="url(#grid)" />
+
+  <!-- Abstract circuit lines representing coding connections -->
+  <path d="M100,900 L300,700 L500,850 L700,650" stroke="rgba(255,255,255,0.5)" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="10,10"/>
+  <circle cx="100" cy="900" r="8" fill="white"/>
+  <circle cx="300" cy="700" r="8" fill="white"/>
+  <circle cx="500" cy="850" r="8" fill="white"/>
+  <circle cx="700" cy="650" r="8" fill="white"/>
+
+  <!-- Abstract data visualization line graph -->
+  <path d="M1200,200 L1300,400 L1400,300 L1500,500 L1600,400" stroke="rgba(255,255,255,0.7)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="1200" cy="200" r="10" fill="white"/>
+  <circle cx="1300" cy="400" r="10" fill="white"/>
+  <circle cx="1400" cy="300" r="10" fill="white"/>
+  <circle cx="1500" cy="500" r="10" fill="white"/>
+  <circle cx="1600" cy="400" r="10" fill="white"/>
+
+  <!-- Stylized code brackets symbolizing development -->
+  <text x="100" y="150" fill="white" font-size="120" font-family="monospace">{ }</text>
+</svg>
